@@ -33,9 +33,10 @@ body {
 
 /* styling for p of the intro */
 .intro p {
+  font-family: 'Arial', cursive;
   margin-left: 100px;
   margin-right: 100px;
-  font-size: 15px;
+  font-size: 20px;
   color: #ffffff;
   line-height: 2;
   font
@@ -90,13 +91,28 @@ body {
 }
 
 /* styling for names of the food */
-#name{
+#name {
   margin-top: 5px;
   margin-bottom: 20px;
   font-family: 'Teko', sans-serif;
   font-size: 30px;
   color: #000000;
   text-align: center;
+}
+
+#comments {
+  font-family: 'Arial', sans-serif;
+  margin-left: 100px;
+  text-align: left;
+}
+
+#description {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  line-height: 2;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
 }
 
 h1{
